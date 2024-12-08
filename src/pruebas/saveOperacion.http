@@ -1,0 +1,11 @@
+
+
+POST http://localhost:9095/api/operaciones HTTP/1.1
+content-type: application/json
+
+{
+    "monto": 1000.0,
+    "tarjetaId": 1
+}
+
+
