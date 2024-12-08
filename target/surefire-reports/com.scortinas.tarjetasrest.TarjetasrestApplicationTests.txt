@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.scortinas.tarjetasrest.TarjetasrestApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.827 s -- in com.scortinas.tarjetasrest.TarjetasrestApplicationTests
