@@ -14,4 +14,6 @@ public interface TarjetaService {
     public double calcularTasa(Tarjeta tarjeta, LocalDate fecha);
 
     Optional<Tarjeta> getTarjetaById(Long id);
+
+    public boolean verificarCvv(Long id, int cvv);
 }
