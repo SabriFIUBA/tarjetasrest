@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.scortinas.tarjetasrest.TarjetaServiceImplTest" time="0.59" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.scortinas.tarjetasrest.OperacionServiceImplTest" time="0.247" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -61,5 +61,6 @@
     <property name="java.class.version" value="61.0"/>
     <property name="LOGGED_APPLICATION_NAME" value="[tarjetasrest] "/>
   </properties>
-  <testcase name="guardarTarjetaConNumeroDuplicadoThrowsExceptionElsePass" classname="com.scortinas.tarjetasrest.TarjetaServiceImplTest" time="0.076"/>
+  <testcase name="testSaveOperacionConMontoValido" classname="com.scortinas.tarjetasrest.OperacionServiceImplTest" time="0.019"/>
+  <testcase name="testSaveOperacionConMontoInvalidoThrowsException" classname="com.scortinas.tarjetasrest.OperacionServiceImplTest" time="0.005"/>
 </testsuite>
